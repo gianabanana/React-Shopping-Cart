@@ -41,7 +41,6 @@ class Home extends Component {
 }
 
 const mapStateToProps = (state) => {
-    console.log(state.items)
     return {
         items: state.cartReducer.items
     }

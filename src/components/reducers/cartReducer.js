@@ -51,7 +51,6 @@ export function cartReducer(state = initState, action) {
 
         //calculating the total
         let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity)
-        console.log(itemToRemove)
         return {
             ...state,
             addedItems: new_items,
